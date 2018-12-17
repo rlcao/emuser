@@ -95,11 +95,14 @@ The new quicksetup tool reduced the turn around time of deployment by executing 
 * Product platform related responsibilities, such as OS upgrade, database upgrade, HA setup of nodes etc.
 
 ## Synopsys (Shanghai) Ltd. Co (2006/02 ~ 2011/01)
-### Purecov Report Generation Tool
+Position: SCM Engineer - Build Environment Support
+Work Environment: C/C++, Make, Perl, Expect, Linux/Unix, Bash/Shell, Java
+#### Projects
+##### Purecov Report Generation Tool
 To make sure our regression test covered all code lines, we need to run purecov(an IBM code instrument tool) to generate coverage report. After running regression on  purecov instrumented software, we need to merge all purecov reports from each test to generate an overall report. It takes days to get the purecov report generated in the beginning. However, it takes much longer time after a major change in product, which caused a single test to generate a purecov data file for each process. 
 To solve this problem, I consolidated script to merge purecov script once a test finished its running. After this change, purecov report can be generated with in a week.
 
-### Internal Tools Developed
+##### Internal Tools Developed
 * Perforce Code Change History Webpage - show code changes on webpage in color
 * Disk Usage Status Report Page - Collecting disk usage data, Prunig Obsolete files, Image management etc.
 * Product Auto-Installer - Automatic installation of products using expect.
@@ -107,6 +110,7 @@ To solve this problem, I consolidated script to merge purecov script once a test
 
 ### Xi'an 262 Nuclear Medical Instrument Company (2004/07 - 2005/05)
 Position: Software Engineer 
+#### Project
 ###### Medical Instrument Software
 The company was manufacturing Nuclear Medical Instrument. And the project was to implement the software part of the instrument. The software will read a couple of data from serial port, and the dataset have 5 standard sample data as well as real patient data. Given the sample value of standard sample data, we use curve fitting to figure out the curve and use the curve parameter to calculate the corresponding value for patient. I was focused on modules:
 * Curve fitting calculation to predict patient result
