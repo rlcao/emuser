@@ -108,7 +108,7 @@ To solve this problem, I consolidated script to merge purecov script once a test
 ### Xi'an 262 Nuclear Medical Instrument Company (2004/07 - 2005/05)
 Position: Software Engineer 
 #### Project
-###### Medical Instrument Software
+##### Medical Instrument Software
 The company was manufacturing Nuclear Medical Instrument. And the project was to implement the software part of the instrument. The software will read a couple of data from serial port, and the dataset have 5 standard sample data as well as real patient data. Given the sample value of standard sample data, we use curve fitting to figure out the curve and use the curve parameter to calculate the corresponding value for patient. I was focused on modules:
 * Curve fitting calculation to predict patient result
 * Communication protocol between instrument and computer, and interface to the upper layer
