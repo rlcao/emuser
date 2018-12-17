@@ -11,9 +11,8 @@
 
 ## Experience
 ### Oracle (China) Software Systems Co., Ltd. （2017/11 ~ Now）
-Position: Cloud Operations
-Working Environments:
-Linux/Bash/Shell, Python, Chef, Docker, Jira, Jenkins, Job Controller, Xen, Git
+Position: Cloud Operations\
+Working Environments: Linux/Bash/Shell, Python, Chef, Docker, Jira, Jenkins, Job Controller, Xen, Git
 #### Projects
 ##### Oracle China DC Build 
 As first member of China cloud team, I went through the whole process of setting up Oracle China cloud compute site, including both compute infrastructure and compute services build. On joining Oracle, I was assigned to work on building compute site for China cloud, which was not easy as expected due to China government policy. With little support from team members from other site(due to timezone issue), I managed to grow from code study and setup compute site components:
@@ -26,9 +25,8 @@ With proven problem solving skills, I was assigned as China compute contact poin
 As more members join China cloud team, I take the responsibility of run local daily sync up meeting and team member training.
 
 ### Beijing Jingdong Information Technology Co., Ltd. （2017/06 ~ 2017/11）
-Position: devops engineer
-Working Environment: 
-Linux/Bash/Shell, Python/Perl/Shell, Git, Jenkins, KVM, Docker/Kubernetes, Django/Bootstrap, Mysql
+Position: devops engineer\
+Working Environment: Linux/Bash/Shell, Python/Perl/Shell, Git, Jenkins, KVM, Docker/Kubernetes, Django/Bootstrap, Mysql
 #### Projects
 ##### Devops CI/CD Pipeline Build
 Without standard CI/CD pipeline, development work was done in slow pace. I was hired to build standard CI/CD pipeline as well as train team member on it usage. To gain most from less effort in mind, we used gitlab + kubernetes + jenkins to as starter.
@@ -59,9 +57,8 @@ There was 4 engineers involved in this project, and I was working as lead and ma
 In the end, we successfully deployed the service in production environment, which was considered a good starter for future projects.
 
 ### Cisco Systems (2011/01 ~ 2017/04)
-Position: team lead & scrum master
-Working Environment: 
-Linux/Unix, Python/Perl/Shell, Git/SVN/Perforce, Jenkins/Maven/Java, VMware vSphere ESXi, Openstack, Confluence, Jira, Fisheye, Docker/Kubernetes/Openshift, Cobertura, Rally
+Position: team lead & scrum master\
+Working Environment: Linux/Unix, Python/Perl/Shell, Git/SVN/Perforce, Jenkins/Maven/Java, VMware vSphere ESXi, Openstack, Confluence, Jira, Fisheye, Docker/Kubernetes/Openshift, Cobertura, Rally
 #### Projects
 ##### Quicksetup Deployment Tool
 Background: Vido Back Off product deployment is becoming complex along the way, due to factors:
@@ -95,7 +92,7 @@ The new quicksetup tool reduced the turn around time of deployment by executing 
 * Product platform related responsibilities, such as OS upgrade, database upgrade, HA setup of nodes etc.
 
 ## Synopsys (Shanghai) Ltd. Co (2006/02 ~ 2011/01)
-Position: SCM Engineer - Build Environment Support
+Position: SCM Engineer - Build Environment Support\
 Work Environment: C/C++, Make, Perl, Expect, Linux/Unix, Bash/Shell, Java
 #### Projects
 ##### Purecov Report Generation Tool
