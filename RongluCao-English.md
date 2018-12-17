@@ -1,15 +1,15 @@
-# Contact
+## Contact
 - Cell Phone：13701143920
 - Email：caoronglu@gmail.com
 
-# Basic Info
+## Basic Info
  - Ronglu Cao/Male/1981
  - Master/Compute Science in Xidian University 
  - Have been working since 2006, 12 years
  - Residence: ChaoYang District, Beijing
  - English Speaking: fluent
 
-# Experience
+## Experience
 ### Oracle (China) Software Systems Co., Ltd. （2017/11 ~ Now）
 Position: Cloud Operations
 Working Environments:
@@ -106,14 +106,14 @@ To solve this problem, I consolidated script to merge purecov script once a test
 * Hardware Manager - Collect and show hardware data on web portal.
 
 ### Xi'an 262 Nuclear Medical Instrument Company (2004/07 - 2005/05)
-#### Job: Software Engineer |Software Development
+Position: Software Engineer 
 ###### Medical Instrument Software
 The company was manufacturing Nuclear Medical Instrument. And the project was to implement the software part of the instrument. The software will read a couple of data from serial port, and the dataset have 5 standard sample data as well as real patient data. Given the sample value of standard sample data, we use curve fitting to figure out the curve and use the curve parameter to calculate the corresponding value for patient. I was focused on modules:
 * Curve fitting calculation to predict patient result
 * Communication protocol between instrument and computer, and interface to the upper layer
 * Patient information and result management module include patient report generation and report format customization 
 
-# Technical Skill List
+## Technical Skill List
 - Programming Languages: Python/Perl/Bash/Java/Golang
 - Web Development：django/bootstrap/restframework
 - Frameworks: Twisted/Luigi/Celery
