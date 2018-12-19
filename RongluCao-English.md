@@ -7,7 +7,7 @@
  - Master/Computer Science at Xidian University
  - Have been working since 2006, 12 years
  - Residence: Chaoyang District, Beijing
- - English speaking: fluent
+ - English Speaking: fluent
 
 # Experience
 ## Oracle (China) Software Systems Co., Ltd. （2017/11 ~ Now）
