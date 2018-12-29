@@ -16,7 +16,7 @@ Working Environments: Linux/Bash/Shell, Python, Chef, Docker, Jira, Jenkins, Job
 
 ### Projects
 #### Oracle China DC Build
-As the first member of China cloud team, I went through the whole process of setting up Oracle China cloud compute site, including both compute infrastructure and compute services build. On joining Oracle, I was assigned to work on building compute site for China cloud, which was not as easy as expected due to China government policy on public cloud infrastructure. With little support from team members from other sites (due to timezone issue), I managed to grow from code study and set up compute site components:
+As the first member of China cloud team, I went through the whole process of setting up Oracle China cloud compute site, including both compute infrastructure and compute services build. On joining Oracle, I was assigned to work on building compute site for China cloud, which was not as easy as expected due to China government policy on public cloud infrastructure. With little support from team members from other sites (due to timezone issue), I managed to grow from code studying and set up compute site components:
 
 * Infrastructure setup including management node setup, chef server setup, monitoring host setup
 * Public cloud services like compute service manager, regional compute service manager, network service in compute
