@@ -5,26 +5,37 @@
 # Basic Info
  - Ronglu Cao/Male/1981
  - Master/Computer Science at Xidian University
- - Have been working since 2006, 12 years
+ - Have been working since 2006, 13 years
  - Residence: Chaoyang District, Beijing
  - English Speaking: fluent
 
 # Experience
 ## Oracle (China) Software Systems Co., Ltd. （2017/11 ~ Now）
-Position: Cloud Operations\
-Working Environments: Linux/Bash/Shell, Python, Chef, Docker, Jira, Jenkins, Job Controller, Xen, Git
+Position: Compute Cloud Operations Lead\
+Working Environments: Linux/Bash/Shell, Python, Flask, Chef, Docker, Jira, Jenkins, Job Controller, Xen, Git
 
 ### Projects
 #### Oracle China DC Build
 As the first member of China cloud team, I went through the whole process of setting up Oracle China cloud compute site, including both compute infrastructure and compute services build. On joining Oracle, I was assigned to work on building compute site for China cloud, which was not as easy as expected due to China government policy on public cloud infrastructure. With little support from team members from other sites (due to timezone issue), I managed to grow from code studying and set up compute site components:
 
-* Infrastructure setup including management node setup, chef server setup, monitoring host setup
+* Infrastructure setup using Chef, including management node setup, chef server setup, monitoring host setup
 * Public cloud services like compute service manager, regional compute service manager, network service in compute
 * Microsoft key management service
 * Service to service integration including elk, graphite, including supporting services like nimbula diagnostic report service
 
 With proven problem-solving skills, I was assigned as China compute contact point during China cloud build and got a good relationship in the global team.
 As more members join China cloud team, I take the responsibility of run local daily sync up meeting and team member training.
+
+
+#### Resource Usage Charts
+In order to better plan the migration of the compute area, we need to better understand the historical curve of the block storage usage. The project has three parts:
+
+* Data collection: collect compute usage data through the compute service interface periodically
+* Restful service API: Based on the Restful interface of the Flask framework, responsible for data insertion and query
+* EChart/Ajax-based front end: Get historical data from the Restful service API and draw historical curves
+
+The project is completed by three people, I am responsible for interface definition, Restful service API and module integration
+
 
 ## Beijing Jingdong Information Technology Co., Ltd. （2017/06 ~ 2017/11）
 Position: DevOps Engineer\
@@ -119,33 +130,6 @@ To solve the longtime problem, I consolidated script to merge purecov script onc
 * Product Auto-Installer - Automatic installation of products using expect
 * Hardware Manager - Collect and show hardware data on the web portal
 
-## Xi'an 262 Nuclear Medical Instrument Company (2004/07 - 2005/05)
-Position: Software Engineer
-
-### Project
-#### Medical Instrument Software
-The company was manufacturing Nuclear Medical Instrument. The project was to implement the software used in the medical instrument. The software reads data from serial port. Typically the data have 5 standard sample data besides real patient data. Given the sample value of standard sample data, it uses curve fitting to figure out the curve and use the curve parameter to calculate the corresponding value for the patient. I was responsible for modules:
-
-* Curve fitting calculation to predict a patient result
-* The communication protocol between instrument and computer, and interface to the upper layer
-* Patient information and result management module include patient report generation and report format customization
-
-# Machine Learning Knowledge
-Recently, I have been spending my time building expertise in machine learning. Machine Learning algorithms already learned:
-
-* Supervised Learning
-  * Linear Regression
-  * Logistic Regression
-  * Deep Learning Neural Networks
-  * Support Vector Machine
-
-* Unsupervised Learning
-  * K-Means Clustering
-  * Dimensionality Reduction
-  * Anomaly Detection
-  * PCA - Principal Components Analysis
-  * SOM - Self Organizing Maps
-
 # Technical Skill List
 - Programming Languages: Python/Perl/Bash/Java/Golang
 - Web Development：django/bootstrap/rest framework
@@ -162,4 +146,4 @@ Recently, I have been spending my time building expertise in machine learning. M
 * XiDian University (1999/08 ~ 2003/07) - Computer Science | Computer Science and Technology | Bachelor | Xi'an
 
 # Acknowledge
-Thanks for your time reading my resume and I am looking forward to working with you and building a brighter future together
+Thanks for your time reading my resume. I am looking forward to working with you and building a brighter future together
