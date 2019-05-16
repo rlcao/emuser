@@ -11,7 +11,7 @@
 
 # 工作经历
 ## 甲骨文（中国）软件系统有限公司（2017/11 ~ 现在）
-职位：云运维 \
+职位：计算云运维Lead \
 工作环境：Linux/Bash/Shell，Python, Go, Flask，Chef，Kubernetes, Docker，Jira，Jenkins，Job Controller，Xen，Git
 
 ### 项目
@@ -46,7 +46,7 @@
 * 开发环境：vagrant + virtualbox + k8s + wavenet
 * 生产环境：baremental + k8s + wavenet
 
-#### Devops CI/CD 流水线建设（2017/07 ～ 2017/08）
+#### DevOps CI/CD 流水线建设（2017/07 ～ 2017/08）
 在京东的第一项任务是建立标准的CI/CD流水线并介绍给团队的其他成员。我选择使用gitlab + kubernetes + Jenkins来搭建持续集成流水线：
 
 * Gitlab作为代码存储库，使用了主/开发分支管理策略
@@ -80,7 +80,7 @@
 工作环境：Linux/Unix，Python/Perl/Shell，Git/SVN/Perforce，Jenkins/Maven/Java，VMware vSphere ESXi，OpenStack，Confluence，Jira，Fisheye，Docker/Kubernetes/ Openshift，Cobertura，Rally
 
 ### 项目
-#### Quicksetup部署工具 （2015/10 ～ 2016/01）
+#### QuickSetup部署工具 （2015/10 ～ 2016/01）
 背景：由于以下因素，VBO（视频后台 - 视频产品）产品部署正在变得越来越复杂：
 
 * 提供更多硬件资源环境 - 为不同位置的团队提供3个vCenter站点
@@ -90,10 +90,8 @@
 
 总体而言，部署管理变得复杂，甚至失控。具体而言，当遇到部署问题时，很难找到导致问题的根本原因，并且难以向部署工具添加新功能。
 为解决此问题，我设计了基于DevOps原则的开发了下一代快速部署工具，该工具将：
-* 阅读配置文件，包括：
-  * 硬件资源配置，包含vCenter参数
-  * 节点部署定义文件，定义节点类型
-  * 任务定义文件，定义在部署期间要执行的任务
+
+* 阅读配置文件，包括： 硬件资源配置，包含vCenter参数; 节点部署定义文件，定义节点类型; 任务定义文件，定义在部署期间要执行的任务
 * 根据配置中任务定义构建依赖图，并在Luigi框架中执行图中的任务
 * 每个任务都有其专用的日志文件，可以在失败时重新执行
 * 任务执行状态将显示在前端网页上：黄色表示挂起，绿色表示成功，红色表示失败。
@@ -132,7 +130,7 @@
 
 # 技术技能列表
  - 编程语言：Python/Go/Bash/Perl/Java
- - Web开发：django/flask/bootstrap/rest框架
+ - Web开发：Django/Flask/Bootstrap/Rest框架
  - 框架：Twisted/Luigi/Celery
  - 日志：ELK/Splunk
  - CI/CD工具：Jenkins Pipeline/Maven/Nexus/Artifactory/Jira/Pytest/Checkstyle/Cobertura

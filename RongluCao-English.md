@@ -90,10 +90,7 @@ Background: VBO(Video Back Office - a video product) product deployment is becom
 Overall, the deployment management is becoming complex, even out of control. Specifically, it is getting hard to root cause a deployment issue and difficult to add new features to the deployment tool.
 To resolve this issue, I designed a next-generation quick setup deployment tool base on DevOps principles, which will:
 
-* Read configuration files including:
-  * Hardware resource configuration, which contains vCenter parameters
-  * Node deployment definitions file, which defined node types
-  * Task definition file, which defined tasks to execute during deployment
+* Read configuration files including: Hardware resource configuration, which contains vCenter parameters; Node deployment definitions file, which defined node types; Task definition file, which defined tasks to execute during deployment
 * Compose a task dependency graph base on the graph definition from config and execute them in Luigi framework
 * Each task will have its dedicated log file and can be re-executed on failure
 * The task execution status will be shown on frontend webpage: yellow for pending, green for success and red for failure.
